@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health Report Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <form id="healthReportForm" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        
+        <label for="weight">Weight:</label>
+        <input type="number" id="weight" name="weight" required>
+        
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="healthReport">Upload Health Report:</label>
+        <input type="file" id="healthReport" name="healthReport" required>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
